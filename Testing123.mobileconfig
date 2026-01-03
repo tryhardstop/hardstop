@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasRemovalPasscode</key>
+	<true/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal Password</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.profileRemovalPassword.80E6EEC6-41A9-40C7-8590-3A7DFA3211CB</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>80E6EEC6-41A9-40C7-8590-3A7DFA3211CB</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>123</string>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>94.140.14.15</string>
+					<string>94.140.15.16</string>
+				</array>
+				<key>ServerName</key>
+				<string>Adult Content Filter</string>
+				<key>ServerURL</key>
+				<string>https://dns-family.adguard.com/dns-query</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>DNS Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.AF1D9AC6-EC66-412A-9B20-DC50150FC989</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>AF1D9AC6-EC66-412A-9B20-DC50150FC989</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.401282E2-6A94-45B1-89D4-444BB2FB53BD</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>401282E2-6A94-45B1-89D4-444BB2FB53BD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowCloudPrivateRelay</key>
+			<false/>
+			<key>allowEraseContentAndSettings</key>
+			<false/>
+			<key>allowVPNCreation</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Testing123</string>
+	<key>PayloadIdentifier</key>
+	<string>Testing123</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>FBB0130B-BE6D-441D-92E6-53A36A5500E4</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>3000-01-03T19:57:13Z</date>
+</dict>
+</plist>
