@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasRemovalPasscode</key>
+	<true/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal Password</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.profileRemovalPassword.737414DF-B82B-425F-BC1F-5A0CDFA134F6</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>737414DF-B82B-425F-BC1F-5A0CDFA134F6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>123</string>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>94.140.14.15</string>
+					<string>94.140.15.16</string>
+				</array>
+				<key>ServerName</key>
+				<string>Adult Content Filter</string>
+				<key>ServerURL</key>
+				<string>https://dns-family.adguard.com/dns-query</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>DNS Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.4E75D181-A545-4565-87B3-A3CE1890BCC2</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>4E75D181-A545-4565-87B3-A3CE1890BCC2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.7E861BC2-275F-4DFF-82A9-945B1C4D037A</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>7E861BC2-275F-4DFF-82A9-945B1C4D037A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowCloudPrivateRelay</key>
+			<false/>
+                        <key>allowDNSProxy</key>
+			<false/>
+			<key>allowEraseContentAndSettings</key>
+			<false/>
+			<key>allowVPNCreation</key>
+			<false/>
+			<key>blockedAppBundleIDs</key>
+			<array>
+				<string>vpn</string>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Testing123</string>
+	<key>PayloadIdentifier</key>
+	<string>iMazing-Profile-Editor.ED2295C1-6035-4A7B-96FC-16F1269691DC</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>ED2295C1-6035-4A7B-96FC-16F1269691DC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>3000-01-03T19:57:13Z</date>
+</dict>
+</plist>
