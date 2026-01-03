@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoFilterEnabled</key>
+			<true/>
+			<key>FilterBrowsers</key>
+			<true/>
+			<key>FilterSockets</key>
+			<true/>
+			<key>FilterType</key>
+			<string>BuiltIn</string>
+			<key>PayloadDescription</key>
+			<string>Configures content filtering settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Content Filter</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webcontent-filter.0741D581-DE5A-4777-AAB9-1E712DBFA79E</string>
+			<key>PayloadType</key>
+			<string>com.apple.webcontent-filter</string>
+			<key>PayloadUUID</key>
+			<string>0741D581-DE5A-4777-AAB9-1E712DBFA79E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures restrictions</string>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.8F2A9C3D-1E4B-4A7C-9D6E-5F3B8A1C2E4D</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>8F2A9C3D-1E4B-4A7C-9D6E-5F3B8A1C2E4D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>forceGoogleSafeSearch</key>
+			<true/>
+			<key>forceYahooSafeSearch</key>
+			<true/>
+			<key>forceBingSafeSearch</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Content Filter and Safe Search</string>
+	<key>PayloadIdentifier</key>
+	<string>Hardstop.Content.Filter</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
