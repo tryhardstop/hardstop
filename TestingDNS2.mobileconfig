@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>94.140.14.15</string>
+					<string>94.140.15.16</string>
+				</array>
+				<key>ServerName</key>
+				<string>Adult Content Filter</string>
+				<key>ServerURL</key>
+				<string>https://dns-family.adguard.com/dns-query</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>DNS Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.0A54DF3E-45C1-423A-91BD-21B91D7A012B</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>0A54DF3E-45C1-423A-91BD-21B91D7A012B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>FilterType</key>
+			<string>BuiltIn</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Content Filter</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webcontent-filter.F44E29F9-C810-455A-99A9-F5033B1321E6</string>
+			<key>PayloadType</key>
+			<string>com.apple.webcontent-filter</string>
+			<key>PayloadUUID</key>
+			<string>F44E29F9-C810-455A-99A9-F5033B1321E6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Untitled</string>
+	<key>PayloadIdentifier</key>
+	<string>iMazing-Profile-Editor.12909A78-EBA2-49ED-A0A4-2804CA8C13D4</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>12909A78-EBA2-49ED-A0A4-2804CA8C13D4</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
