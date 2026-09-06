@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>HardStop DNS (test)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.tryhardstop.test.dnsSettings.managed</string>
+			<key>PayloadOrganization</key>
+			<string>HardStop</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>6F0C2B1E-4D3A-4E8B-9C7D-2A1B3C4D5E6F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://apple.dns.nextdns.io/429ee1</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>45.90.28.0</string>
+					<string>45.90.30.0</string>
+					<string>2a07:a8c0::42:9ee1</string>
+					<string>2a07:a8c1::42:9ee1</string>
+				</array>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>EvaluateConnection</string>
+					<key>ActionParameters</key>
+					<array>
+						<dict>
+							<key>DomainAction</key>
+							<string>NeverConnect</string>
+							<key>Domains</key>
+							<array>
+								<string>dav.orange.fr</string>
+								<string>vvm.mobistar.be</string>
+								<string>msg.t-mobile.com</string>
+								<string>tma.vvm.mone.pan-net.eu</string>
+								<string>vvm.ee.co.uk</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>TEST ONLY - DNS payload from the HardStop iOS profile, removable, no restrictions. Do not ship.</string>
+	<key>PayloadDisplayName</key>
+	<string>HardStop DNS TEST ONLY</string>
+	<key>PayloadIdentifier</key>
+	<string>com.tryhardstop.test.dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3B9E7A21-58C4-4F0D-A6B2-1E2F3A4B5C6D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
