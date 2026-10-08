@@ -1,0 +1,77 @@
+cat > ~/Desktop/Test-Blocker-unsigned.mobileconfig <<'EOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadDisplayName</key>
+      <string>Test Blocker</string>
+      <key>PayloadIdentifier</key>
+      <string>com.hardstop.testblocker.dns</string>
+      <key>PayloadOrganization</key>
+      <string>NextDNS</string>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadUUID</key>
+      <string>14ABC55B-17E0-4972-9BA0-13550F715FAE</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>DNSSettings</key>
+      <dict>
+        <key>DNSProtocol</key>
+        <string>HTTPS</string>
+        <key>ServerURL</key>
+        <string>https://apple.dns.nextdns.io/9f1e6a</string>
+        <key>ServerAddresses</key>
+        <array>
+          <string>45.90.28.0</string>
+          <string>45.90.30.0</string>
+          <string>2a07:a8c0::9f:1e6a</string>
+          <string>2a07:a8c1::9f:1e6a</string>
+        </array>
+      </dict>
+      <key>ProhibitDisablement</key>
+      <true/>
+      <key>OnDemandRules</key>
+      <array>
+        <dict>
+          <key>Action</key>
+          <string>EvaluateConnection</string>
+          <key>ActionParameters</key>
+          <array>
+            <dict>
+              <key>DomainAction</key>
+              <string>NeverConnect</string>
+              <key>Domains</key>
+              <array>
+                <string>dav.orange.fr</string>
+                <string>vvm.mobistar.be</string>
+                <string>msg.t-mobile.com</string>
+                <string>tma.vvm.mone.pan-net.eu</string>
+                <string>vvm.ee.co.uk</string>
+              </array>
+            </dict>
+          </array>
+        </dict>
+        <dict>
+          <key>Action</key>
+          <string>Connect</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Test Blocker</string>
+  <key>PayloadIdentifier</key>
+  <string>com.hardstop.testblocker</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>D34EE2D6-D33C-44EF-ABF2-6153128FED53</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
+EOF
